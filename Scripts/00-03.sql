@@ -8,6 +8,6 @@ SELECT model, EngineType
 FROM model
 LIMIT 5;
 
-SELECT sql 
+SELECT * 
 FROM sqlite_schema 
 WHERE name = 'employee';
